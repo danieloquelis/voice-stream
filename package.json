@@ -1,6 +1,6 @@
 {
   "name": "voice-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful React hook for real-time voice streaming, designed for AI-powered applications. Perfect for real-time transcription, voice assistants, and audio processing with features like silence detection and configurable audio processing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
