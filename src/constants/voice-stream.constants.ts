@@ -1,0 +1,5 @@
+export const DEFAULT_TARGET_SAMPLE_RATE = 16000;
+export const DEFAULT_BUFFER_SIZE = 8192;
+export const DEFAULT_SILENCE_THRESHOLD = -50; // dB
+export const DEFAULT_SILENCE_DURATION = 1000; // ms
+export const DEFAULT_INCLUDE_DESTINATION = true;

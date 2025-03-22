@@ -1,4 +1,68 @@
 {
   "name": "voice-stream",
-  "packageManager": "yarn@4.3.1"
+  "version": "0.1.0",
+  "description": "A powerful React hook for real-time voice streaming, designed for AI-powered applications. Perfect for real-time transcription, voice assistants, and audio processing with features like silence detection and configurable audio processing.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prepare": "yarn build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "voice",
+    "streaming",
+    "audio",
+    "typescript",
+    "ai",
+    "conversation",
+    "realtime",
+    "whisper",
+    "elevenlabs",
+    "openai",
+    "speech-to-text",
+    "text-to-speech",
+    "voice-assistant",
+    "voice-activity-detection",
+    "silence-detection",
+    "webaudio",
+    "webrtc",
+    "audio-processing",
+    "real-time-audio",
+    "voice-recognition",
+    "voice-api",
+    "react-hooks",
+    "typescript-library"
+  ],
+  "author": "Daniel Oquelis",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "yarn@4.4.0",
+  "dependencies": {
+    "@testing-library/react": "^16.2.0"
+  }
 }
