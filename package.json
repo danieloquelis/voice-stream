@@ -4,6 +4,14 @@
   "description": "A powerful React hook for real-time voice streaming, designed for AI-powered applications. Perfect for real-time transcription, voice assistants, and audio processing with features like silence detection and configurable audio processing.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieloquelis/voice-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danieloquelis/voice-stream/issues"
+  },
+  "homepage": "https://github.com/danieloquelis/voice-stream#readme",
   "scripts": {
     "build": "tsc",
     "test": "jest",
